@@ -1,0 +1,29 @@
+# this is enviriments configuration file for jones-gradle-plugins
+
+:paths
+	onecplatfrorms(default:1)
+		1:%programfiles%\1cv8\:max
+	snegopat_core:%SNEGOPAT_BIN%
+
+:test-services
+	1c-test-service-ports: default 
+	db:
+		file:default
+		mssql:
+			instance: localhost\SQLExpress # пользователь запускающий сервер, должен быть добавлен в группу имеющих возможность создавать базы данных 
+		postgresql:
+			instanse: #todo   
+	logs:	
+		1:debug #full
+		2:querry #only sdbl and querry plans
+		3:mems #leaks ???
+
+
+:publish
+	:dir = > .\publish #каталог публикации сборки (шаблоны конифинураций)
+
+
+		
+
+
+		
