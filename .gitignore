@@ -1,1 +1,4 @@
 # standart ignore file for 1C repo
+
+*.epf
+*.1cd
