@@ -3,38 +3,42 @@ xdd-bootstrap-1C
 
 xDD Catalogs Bootstrap and Example
 
-> замените текст в данном файле на описание вашей конфигурации, после первой инициализации
-
 ### "Take over the world" configuration для платформы 1С Предприятие
 
 bootstrap full source template for Bussines Process Automation platform www.1C.com
 
-
-Данный проект является шаблонов для разработчика при переходе команды на стандарты промышленной разработке на 1С:Предприятие
+Данный проект является шаблоном каталогов и шаблонов рабочего процесса для разработчика при переходе команды на стандарты промышленной разработке на 1С:Предприятие
 
 #TODO - добавить подробное описание каталогов
 
 ### подключение к Вашему проекту 
 
 *команды подключения к новому проекту*
-
+'''
 > git clone https://github.com/xUnitFor1C/xdd-bootstrap-1C.git ./PROJECTNAME
 > cd ./PROJECTNAME
 > git submodule init
 > git submodule update
 > cd .\utils\precommit1c\ && copy-to-hook.cmd && cd .\..\..\..\
+'''
 
 Для Github (репозиторий должен существовать)
 
+'''
 > git remote set-url origin git@github.com:USERNAME/PROJECTNAME.git
+'''
 
 Для BitBucket (репозиторий должен существовать)	
 
+'''
 > git remote set0url origin https://USERNAME@bitbucket.org/USERNAME/PROJECTNAME.git
+'''
 
 И последнее
 
+'''
 > git push -u origin --all
+'''
 
 *команды подключение к существующему проекту*
 
@@ -54,10 +58,10 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 
 1. используйте Git Issue или git pull request
 2. для обновления: 
+'''
 > git remote add workflow https://github.com/xUnitFor1C/xdd-bootstrap-1C.git
 > git pull workflow master 
-
-
+'''
 
 ### А если завтра "война"
 
