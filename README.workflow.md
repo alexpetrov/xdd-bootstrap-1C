@@ -45,9 +45,21 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 
 **команды подключение к существующему проекту**
 
-> TODO - отладить подключение, разрешение конфликтов и рефакторин
+```sh
+> git remote add workflow https://github.com/xUnitFor1C/xdd-bootstrap-1C.git
+> git fetch worklow
 
-в существующем проекте уже могут быть файлы .gitignore и .gitsubmodules, поэтому необходимо "разрешить конфликты", и если у вас уже есть git репозиторий для 1С, то тогда вы уже знаете как это делать. 
+Используйте git-flow или программу Source-Tree для создания новой функциональности (например feature/new-project-dirs)
+
+
+```sh
+> git merge workflow/master 
+```                                                      
+
+в проекте не содержится стандартных файлов README или LICENCE, единственным файлом обязательным к использованию - является .gitsubmodules. Если вы используейте дополниельный подмодуль, то:
+
+1. выполните git pull request workflow/master
+2. воспользйтесь [Созданием требований на новую функциональность](https://github.com/xUnitFor1C/xdd-bootstrap-1C/issues/new)
 
 
 Особенности рефакторинга каталогов существующего проекта под стандартный шаблон каталогов
@@ -67,3 +79,6 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 ------
 
 когда компания 1С выпустит свою версию и интерпретацию стандартного шаблона каталогов и скриптов мы с помощью git tag и git verison, а может быть даже с помощью git fork учтем её стандарт
+
+
+[Лицензия на использование](licences/LICENSE.XDD.BOOTSTRAP)
