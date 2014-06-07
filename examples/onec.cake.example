@@ -1,4 +1,4 @@
-# this is enviriments configuration file for jones-gradle-plugins
+п»ї# this is enviriments configuration file for jones-gradle-plugins
 
 :paths
 	onecplatfrorms(default:1)
@@ -10,7 +10,7 @@
 	db:
 		file:default
 		mssql:
-			instance: localhost\SQLExpress # пользователь запускающий сервер, должен быть добавлен в группу имеющих возможность создавать базы данных 
+			instance: localhost\SQLExpress # РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ Р·Р°РїСѓСЃРєР°СЋС‰РёР№ СЃРµСЂРІРµСЂ, РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РґРѕР±Р°РІР»РµРЅ РІ РіСЂСѓРїРїСѓ РёРјРµСЋС‰РёС… РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ СЃРѕР·РґР°РІР°С‚СЊ Р±Р°Р·С‹ РґР°РЅРЅС‹С… 
 		postgresql:
 			instanse: #todo   
 	logs:	
@@ -20,7 +20,7 @@
 
 
 :publish
-	:dir = > .\publish #каталог публикации сборки (шаблоны конифинураций)
+	:dir = > .\publish #РєР°С‚Р°Р»РѕРі РїСѓР±Р»РёРєР°С†РёРё СЃР±РѕСЂРєРё (С€Р°Р±Р»РѕРЅС‹ РєРѕРЅРёС„РёРЅСѓСЂР°С†РёР№)
 
 
 		
