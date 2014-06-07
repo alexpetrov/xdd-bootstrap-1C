@@ -15,7 +15,7 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 
 ### подключение к Вашему проекту 
 
-*команды подключения к новому проекту*
+**команды подключения к новому проекту**
 
 ```sh
 > git clone https://github.com/xUnitFor1C/xdd-bootstrap-1C.git ./PROJECTNAME
@@ -34,7 +34,7 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 Для BitBucket (репозиторий должен существовать)	
 
 ```sh
-> git remote set0url origin https://USERNAME@bitbucket.org/USERNAME/PROJECTNAME.git
+> git remote set-url origin https://USERNAME@bitbucket.org/USERNAME/PROJECTNAME.git
 ```
 
 И последнее
@@ -43,9 +43,9 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 > git push -u origin --all
 ```
 
-*команды подключение к существующему проекту*
+**команды подключение к существующему проекту**
 
-> *TODO*
+> TODO - отладить подключение, разрешение конфликтов и рефакторин
 
 в существующем проекте уже могут быть файлы .gitignore и .gitsubmodules, поэтому необходимо "разрешить конфликты", и если у вас уже есть git репозиторий для 1С, то тогда вы уже знаете как это делать. 
 
