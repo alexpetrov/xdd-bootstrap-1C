@@ -72,7 +72,8 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 
 ```sh
 > git remote add workflow https://github.com/xUnitFor1C/xdd-bootstrap-1C.git
-> git pull workflow master 
+> git fetch workflow
+> git merge workflow/master 
 ```
 
 А если завтра "война"
