@@ -53,7 +53,10 @@ bootstrap full source template for Bussines Process Automation platform www.1C.c
 
 
 1. используйте Git Issue или git pull request
-2. > git remote add workflow https://github.com/xUnitFor1C/xdd-bootstrap-1C.git
+2. для обновления: 
+> git remote add workflow https://github.com/xUnitFor1C/xdd-bootstrap-1C.git
+> git pull workflow master 
+
 
 
 ### А если завтра "война"
