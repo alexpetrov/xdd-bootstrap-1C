@@ -4,3 +4,6 @@
 [submodule "utils/v83unpack"]
 	path = utils/v83unpack
 	url = https://github.com/xDrivenDevelopment/v83unpack.git
+[submodule "utils/cuke4ones"]
+	path = utils/cuke4ones
+	url = https://github.com/xDrivenDevelopment/cuke4ones.git
