@@ -1,3 +1,12 @@
 [submodule "utils/precommit1c"]
 	path = utils/precommit1c
 	url = https://github.com/xUnitFor1C/precommit1c.git
+[submodule "utils/v83unpack"]
+	path = utils/v83unpack
+	url = https://github.com/xDrivenDevelopment/v83unpack.git
+[submodule "utils/cuke4ones"]
+	path = utils/cuke4ones
+	url = https://github.com/xDrivenDevelopment/cuke4ones.git
+[submodule "utils/xUnitFor1C"]
+	path = utils/xUnitFor1C
+	url = https://github.com/xDrivenDevelopment/xUnitFor1C.git
